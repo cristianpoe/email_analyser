@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "workspaces": [
+    {
+      "name": "Email Analyser",
+      "description": "A standalone tool for forensic analysis of .eml email files.",
+      "author": "Crispoe",
+      "image": "crispoe/email-analyser:1.0",
+      "thumb_url": "https://cdn.jsdelivr.net/gh/cristianpoe/email_analyser/email_analyser.png",
+      "docs_url": "https://github.com/cristianpoe/email_analyser",
+      "categories": [
+        "Security",
+        "Utilities"
+      ],
+      "cores": 2,
+      "memory": 2048,
+      "cpu_allocation_method": "Inherit"
+    }
+  ]
+}
