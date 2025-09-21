@@ -26,9 +26,12 @@ PDF Export: Generates a print-friendly PDF report of the analysis for easy shari
 
 
 
-**Getting Started**
 
-Installation and Usage
+**Installation and Usage:**
+
+
+**Linux**
+
 Download the binary: Download the latest "email_analyser" binary
 
 Make the binary executable: Open a terminal, navigate to the directory where you downloaded the file, and make it executable with the chmod command:
@@ -38,6 +41,16 @@ _chmod +x email_analyser_
 Run the application: Launch the binary from your terminal. By default, it runs on port 5000. You can specify a different port using the -p option:
 
 _./email_analysis -p 8080_
+
+Open in browser: Open your web browser and navigate to http://127.0.0.1:5000 (or the port you specified) to access the tool.
+
+Analyze your file: Use the "Upload a raw email file" section to select a .eml file from your computer and click "Analyze Email" to generate the report.
+
+
+**Windows**
+
+
+Download the binary: Download the latest "email_analyser.exe" binary and execute.
 
 Open in browser: Open your web browser and navigate to http://127.0.0.1:5000 (or the port you specified) to access the tool.
 
