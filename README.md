@@ -36,11 +36,15 @@ Download the binary: Download the latest "email_analyser" binary
 
 Make the binary executable: Open a terminal, navigate to the directory where you downloaded the file, and make it executable with the chmod command:
 
-_chmod +x email_analyser_
+```bash
+_chmod +x email_analyser
+```
 
 Run the application: Launch the binary from your terminal. By default, it runs on port 5000. You can specify a different port using the -p option:
 
-_./email_analysis -p 8080_
+```bash
+_./email_analyser -p 8080_
+```
 
 Open in browser: Open your web browser and navigate to http://127.0.0.1:5000 (or the port you specified) to access the tool.
 
